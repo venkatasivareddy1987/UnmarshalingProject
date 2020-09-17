@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POSLog
+	xmlns="http://www.nrf-arts.org/IXRetail/namespace/"
+	xmlns:r10Ex="http://www.Retalix.com/Extensions"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" FixVersion="1" MajorVersion="6" MinorVersion="0">
+<Transaction MajorVersion="6" MinorVersion="0" FixVersion="1">
+<RetailTransaction>
+			<LineItem EntryMethod="Keyed">
+				<Sale>
+					<POSIdentity>
+						<POSItemID>10318</POSItemID>
+					</POSIdentity>
+					<MerchandiseHierarchy ID="Merchandise">5000051</MerchandiseHierarchy>
+					<MerchandiseHierarchy ID="Brands">44206</MerchandiseHierarchy>
+					<MerchandiseHierarchy ID="Financial">1700</MerchandiseHierarchy>
+					<MerchandiseHierarchy ID="Tax">0100001</MerchandiseHierarchy>
+					<ItemID Type="X:EAN">4222</ItemID>
+					<Description r10ExCulture="en-US">SM REED AVOCADO</Description>
+					<Description TypeCode="Long" r10ExCulture="en-US">Small Reed Avocado</Description>
+					<RegularSalesUnitPrice Currency="USD">1.25</RegularSalesUnitPrice>
+					<ActualSalesUnitPrice Currency="USD">1.25</ActualSalesUnitPrice>
+					<ExtendedAmount Currency="USD">62.50</ExtendedAmount>
+					<Quantity Units="1" UnitOfMeasureCode="EA" EntryMethod="Keyed">50</Quantity>
+					<ConsumableGroup
+						xmlns="http://www.Retalix.com/Extensions">
+						<Type>Consumable</Type>
+						<ID>CaseDiscountEligible</ID>
+					</ConsumableGroup>
+					<ConsumableGroup
+						xmlns="http://www.Retalix.com/Extensions">
+						<Type>Consumable</Type>
+						<ID>Food_Stamp</ID>
+					</ConsumableGroup>
+					<GroupIndicator
+						xmlns="http://www.Retalix.com/Extensions" Indicator="indication" Group="TenderIndicatorsGroup" Symbol="F" Priority="8" />
+						<ItemUomData
+							xmlns="http://www.Retalix.com/Extensions">
+							<Uom>EA</Uom>
+							<Value>1.00</Value>
+							<PackSize>1</PackSize>
+						</ItemUomData>
+					</Sale>
+					<ScanData>4222</ScanData>
+					<SequenceNumber>1</SequenceNumber>
+					<BeginDateTime r10ExOffset="-04:00:00">2020-07-23T12:21:57.858</BeginDateTime>
+					<EndDateTime r10ExOffset="-04:00:00">2020-07-23T12:21:57.858</EndDateTime>
+				</LineItem>
+				<LineItem EntryMethod="Scanned">
+					<Tender TenderType="CreditDebit">
+						<Amount Currency="USD">30.00</Amount>
+						<Cashback Currency="USD">0</Cashback>
+						<Authorization SignatureRequiredFlag="false" VerifiedByPINFlag="false" r10ExVerifiedByPINStatus="NotVerified">
+							<RequestedAmount Currency="USD">30.00</RequestedAmount>
+							<AuthorizationCode>012922</AuthorizationCode>
+							<ReferenceNumber>206034</ReferenceNumber>
+							<MerchantNumber />
+							<AuthorizationDateTime r10ExOffset="-04:00:00">2020-07-23T12:22:25.6473528</AuthorizationDateTime>
+							<ReceiptText>PURCHASE                
+
+ Gift Cards #636264XXXXXX5159         
+ Auth # 012922   Account Type: primary
+ Lane # 206      Cashier # 4000009    
+ 07/23/20 12:22  Ref/Seq # 206034     
+ EPS Sequence    # 206034             
+ Entry Method : Barcode
+ Total      $    30.00                
+              --------                
+ End Bal    $     7.50</ReceiptText>
+							<r10ExCardId>GC</r10ExCardId>
+							<r10ExCardType>Gift Cards</r10ExCardType>
+							<r10ExAuthorizationType>Online</r10ExAuthorizationType>
+							<ExtendedData
+								xmlns="http://www.Retalix.com/Extensions"
+								xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+								<Data Key="GiftCardAccountNumber">6362640283735159</Data>
+							</ExtendedData>
+						</Authorization>
+						<CreditDebit>
+							<PrimaryAccountNumber />
+							<r10ExMaskedAccountId>636264******5159</r10ExMaskedAccountId>
+						</CreditDebit>
+						<TenderID>20</TenderID>
+						<TenderRestrictionRule>
+							<ItemLink>1</ItemLink>
+						</TenderRestrictionRule>
+						<r10ExTenderDescription>Gift Card</r10ExTenderDescription>
+						<r10ExIsAutoReconcile>True</r10ExIsAutoReconcile>
+					</Tender>
+					<SequenceNumber>2</SequenceNumber>
+					<BeginDateTime r10ExOffset="-04:00:00">2020-07-23T12:22:25.768</BeginDateTime>
+					<EndDateTime r10ExOffset="-04:00:00">2020-07-23T12:22:25.768</EndDateTime>
+				</LineItem>
+				<LineItem EntryMethod="MSR">
+					<Tender TenderType="CreditDebit">
+						<Amount Currency="USD">32.50</Amount>
+						<Cashback Currency="USD">0</Cashback>
+						<Authorization SignatureRequiredFlag="false" VerifiedByPINFlag="false" r10ExVerifiedByPINStatus="NotVerified">
+							<RequestedAmount Currency="USD">32.50</RequestedAmount>
+							<AuthorizationCode>529062</AuthorizationCode>
+							<ReferenceNumber>206035</ReferenceNumber>
+							<MerchantNumber>TG206</MerchantNumber>
+							<AuthorizationDateTime r10ExOffset="-04:00:00">2020-07-23T12:22:45.3332256</AuthorizationDateTime>
+							<ReceiptText>PURCHASE                
+
+ American Express #XXXXXXXXXXX2000    
+ Auth # 529062                        
+ Lane # 206      Cashier # 4000009    
+ 07/23/20 12:22  Ref/Seq # 206035     
+ EPS Sequence    # 206035             
+ Entry Method : Swipe
+ Total      $    32.50</ReceiptText>
+							<r10ExProviderData>201:483922674942000:::12/31/2021</r10ExProviderData>
+							<r10ExCardId>AX</r10ExCardId>
+							<r10ExCardType>American Express</r10ExCardType>
+							<r10ExAuthorizationType>Online</r10ExAuthorizationType>
+							<ExtendedData
+								xmlns="http://www.Retalix.com/Extensions"
+								xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+								<r10ExTokenData>483922674942000</r10ExTokenData>
+							</Authorization>
+							<CreditDebit>
+								<PrimaryAccountNumber />
+								<r10ExMaskedAccountId>341111*****2000</r10ExMaskedAccountId>
+							</CreditDebit>
+							<TenderID>33</TenderID>
+							<r10ExTenderDescription>American Express</r10ExTenderDescription>
+							<r10ExIsAutoReconcile>True</r10ExIsAutoReconcile>
+						</Tender>
+						<SequenceNumber>3</SequenceNumber>
+						<BeginDateTime r10ExOffset="-04:00:00">2020-07-23T12:22:45.668</BeginDateTime>
+						<EndDateTime r10ExOffset="-04:00:00">2020-07-23T12:22:45.668</EndDateTime>
+					</LineItem>
+					<Total CurrencyCode="USD">62.50</Total>
+					<Total TotalType="TransactionNetAmount" CurrencyCode="USD">62.50</Total>
+					<Total TotalType="TransactionPurchaseQuantity">50</Total>
+					<Total TotalType="TransactionPurchaseQuantity" TypeCode="Return">0</Total>
+					<Total TotalType="X:TransactionTaxIncluded" CurrencyCode="USD">0.00</Total>
+					<Total TotalType="X:TransactionTaxSurcharge" CurrencyCode="USD">0.00</Total>
+					<Total TotalType="X:TransactionTaxFee" CurrencyCode="USD">0.00</Total>
+					<Total TotalType="X:ItemTaxFee" CurrencyCode="USD">0.00</Total>
+					<Total TotalType="TransactionTotalSavings" CurrencyCode="USD">0.00</Total>
+					<Total TotalType="TransactionGrandAmount" CurrencyCode="USD">62.50</Total>
+					<Total TotalType="X:TransactionTotalVoidAmount" CurrencyCode="USD">0.00</Total>
+					<Total TotalType="X:TransactionTotalReturnAmount" CurrencyCode="USD">0.00</Total>
+					<Total TotalType="TransactionTaxExemptAmount" CurrencyCode="USD">0.00</Total>
+					<Total TotalType="TransactionTenderApplied" CurrencyCode="USD">62.50</Total>
+					<Total TotalType="X:CashbackTotalAmount" CurrencyCode="USD">0.00</Total>
+					<Total TotalType="X:TransactionMerchandiseAmount" CurrencyCode="USD">62.50</Total>
+					<Total TotalType="X:TransactionNonMerchandiseAmount" CurrencyCode="USD">0.00</Total>
+					<Total TotalType="X:NonResettableGrandTotal" CurrencyCode="USD">936.24</Total>
+					<Total TotalType="X:PreviousNonResettableGrandTotal" CurrencyCode="USD">711.24</Total>
+					<Total TotalType="X:PotentialPrimeSavings" CurrencyCode="USD">0</Total>
+					<Customer r10ExIsAuthenticatedOffline="False">
+						<CustomerID>account.A1ZK0DUC5A8L38</CustomerID>
+						<r10ExScanData>account.A1ZK0DUC5A8L38</r10ExScanData>
+						<r10ExCustomerExternalId>account.A1ZK0DUC5A8L38</r10ExCustomerExternalId>
+						<r10ExCustomerType>Loyalty</r10ExCustomerType>
+						<r10ExIdentificationMethod>CCLoyalty</r10ExIdentificationMethod>
+					</Customer>
+					<PromotionsSummary
+						xmlns="http://www.Retalix.com/Extensions"
+						xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+						<PromotionSummary>
+							<PromotionID>CE_ALL00001</PromotionID>
+							<RedemptionQuantity>50</RedemptionQuantity>
+							<TotalRewardAmount>0.00</TotalRewardAmount>
+							<Message>******************************
+HOW WAS YOUR SHOPPING EXPERIENCE?
+Go to:
+http://www.wfm.com/feedback
+ENTER FOR A CHANCE TO WIN A $250 GIFT CARD
+******************************</Message>
+							<RewardType>Message</RewardType>
+							<PromotionDescription>WFM CUSTOMER SATISFACTION SURVEY</PromotionDescription>
+							<QualifyingSpent>62.50</QualifyingSpent>
+							<TriggerTiming>Line</TriggerTiming>
+						</PromotionSummary>
+					</PromotionsSummary>
+					<r10ExVenueShift>
+						<r10ExDescription r10ExCulture="en-US">Unknown</r10ExDescription>
+					</r10ExVenueShift>
+					<r10ExForms />
+					<r10ExCustomerSurvey>
+						<r10ExRatingData>
+							<r10ExQuestion ReferenceId="RQ0001">Did your store visit today meet your expectations? It was…</r10ExQuestion>
+							<r10ExRatings>
+								<r10ExRating Index="1" ReferenceId="RS0001" IsSelected="false">Much worse</r10ExRating>
+								<r10ExRating Index="2" ReferenceId="RS0002" IsSelected="false">Somewhat worse</r10ExRating>
+								<r10ExRating Index="3" ReferenceId="RS0003" IsSelected="false">As expected</r10ExRating>
+								<r10ExRating Index="4" ReferenceId="RS0004" IsSelected="false">Somewhat better</r10ExRating>
+								<r10ExRating Index="5" ReferenceId="RS0005" IsSelected="false">Much better</r10ExRating>
+							</r10ExRatings>
+						</r10ExRatingData>
+						<r10ExCompletion>None</r10ExCompletion>
+					</r10ExCustomerSurvey>
+					<r10ExUpsellOffer Behaviour="INLANE_SIGNUP" UpsellOfferId="UPSELL_OFFER_ID_V4_1" CustomerID="account.A1ZK0DUC5A8L38">Decline</r10ExUpsellOffer>
+				</RetailTransaction>
+				</Transaction>
+				</POSLog>
